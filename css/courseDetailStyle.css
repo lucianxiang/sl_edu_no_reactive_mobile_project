@@ -1,0 +1,167 @@
+
+/**
+ *  logo 用户
+ **/
+.page_head{
+    padding: 1em;
+    background: #ffffff;
+}
+.page_head span:nth-child(1){
+    float: left;
+}
+.page_head span:nth-child(2){
+    float: right;
+}
+.page_head span a img{
+    height: 30px;
+}
+/**
+ *  面包屑
+ **/
+.breadcrumb{
+    font: 14px/20px "微软雅黑";
+    margin: 0 0 10px 0;
+}
+/**
+ *  中间内容
+ **/
+.middle_content{
+    min-height: 475px;
+}
+.course_banner{
+    background: url("../images/courseDetailStyle/info_bg.jpg");
+}
+.course_banner div:nth-child(2){
+    padding: 0 20px;
+}
+.course_banner div:nth-child(2) h1{
+    color: #fff;
+    font: 20px/30px "微软雅黑";
+    font-weight: 700;
+}
+.course_banner div:nth-child(2) h2{
+    color: #fff;
+    font: 12px/20px "微软雅黑";
+}
+.layui-icon-user{
+    margin-left: 50px;
+}
+.course_banner div:nth-child(2) h2 strong{
+    color: red;
+    font: 20px/30px "微软雅黑";
+    font-weight: 700;
+}
+.course_banner div:nth-child(2) h2 strong span{
+    font: 12px/20px "微软雅黑";
+}
+.course_banner div:nth-child(2) h3{
+    font: 12px/20px "微软雅黑";
+    color: #fff;
+}
+.course_banner div:nth-child(2) h3 a{
+    color: #00a0e9;
+}
+.course_banner div:nth-child(2) div{
+
+}
+.course_banner div:nth-child(2) div div{
+    color: #fff;
+    font: 14px/35px "微软雅黑";
+    padding: 0 20px;
+}
+.course_banner div:nth-child(2) div ul{
+    float: left;
+}
+.course_banner div:nth-child(2) div ul li{
+    float: left;
+    color: #ffffff;
+    line-height: 35px;
+    margin-right: 10px;
+}
+.course_content{
+    min-height: 200px;
+}
+/**
+ *  老师推荐
+ **/
+.course_recommend .container-fluid{
+
+}
+.teacher_recommend{
+    border-bottom: 1px solid #eee;
+}
+.teacher_recommend div{
+    border-bottom: 2px solid #00a3ff;
+    width: 70px;
+    line-height: 50px;
+    text-align: center;
+    color: #00a3ff;
+}
+.teacher_recommend div div div{
+    padding: 0 !important;
+}
+#course_recommend_ul li {
+    border-bottom: 1px solid #eeeeee;
+    padding: 20px 0;
+}
+#course_recommend_ul li div:nth-child(1) h1{
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 30px;
+}
+#course_recommend_ul li div:nth-child(1) h2 span{
+    font: 12px/50px "微软雅黑";
+}
+#course_recommend_ul li div:nth-child(1) h2 span:nth-child(1){
+    float: left;
+}
+#course_recommend_ul li div:nth-child(1) h2 span:nth-child(2){
+    float: right;
+}
+#course_recommend_ul li div:nth-child(2) {
+    padding-left: 0;
+}
+#course_recommend_ul li div:nth-child(2) img{
+    border-radius: 5px;
+}
+/**
+ *  版权地址
+ **/
+footer{
+    margin: 10px 0 0 0;
+    padding: 20px 10px;
+    background: #333333;
+}
+footer h1,footer h2,footer h3,footer h4{
+    font: 14px/20px "微软雅黑";
+    color: #ffffff;
+    text-align: center;
+}
+/**
+ *  立即购买
+ **/
+.buy-btn{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.buy-btn div{
+    float: left;
+    width: 50%;
+    text-align: center;
+    line-height: 50px;
+    height: 50px;
+    font-size: 20px;
+}
+.buy-btn div a{
+    color: #fff;
+}
+.buy-btn div:nth-child(1){
+    background: #00a3ff;
+}
+.buy-btn div:nth-child(2){
+    background: red;
+}
+
+

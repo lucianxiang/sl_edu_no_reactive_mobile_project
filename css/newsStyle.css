@@ -1,0 +1,64 @@
+
+/**
+ *  logo 用户
+ **/
+.page_head{
+    padding: 1em;
+    background: #ffffff;
+}
+.page_head span:nth-child(1){
+    float: left;
+}
+.page_head span:nth-child(2){
+    float: right;
+}
+.page_head span a img{
+    height: 30px;
+}
+/**
+ *  面包屑
+ **/
+.breadcrumb{
+    font: 14px/20px "微软雅黑";
+}
+/**
+ *  中间内容
+ **/
+.middle_content{
+    min-height: 475px;
+}
+.news_box li{
+    margin-bottom: 50px;
+}
+.news_box li div:nth-child(2) h1{
+    font: 16px/30px "微软雅黑";
+    height: 30px;
+    font-weight: 700;
+}
+.news_box li div:nth-child(2) h1:focus{
+    color: #0080FF;
+    text-decoration: none;
+}
+.news_box li div:nth-child(2) h2{
+    font: 12px/30px "微软雅黑";
+    color: #999;
+}
+.news_box li div:nth-child(2) p{
+    font: 14px/30px "微软雅黑";
+    color: #666;
+}
+/**
+ *  版权地址
+ **/
+footer{
+    margin: 10px 0 0 0;
+    padding: 20px 10px;
+    background: #333333;
+}
+footer h1,footer h2,footer h3,footer h4{
+    font: 14px/20px "微软雅黑";
+    color: #ffffff;
+    text-align: center;
+}
+
+
